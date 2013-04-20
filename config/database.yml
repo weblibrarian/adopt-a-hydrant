@@ -1,6 +1,8 @@
 development: &DEVELOPMENT
   adapter: postgresql
   database: adopt_a_thing_development
+  username: adopt 
+  password: B3ckyRu1z
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -9,6 +11,7 @@ development: &DEVELOPMENT
 test:
   <<: *DEVELOPMENT
   database: adopt_a_thing_test
+
 
 production:
   <<: *DEVELOPMENT
