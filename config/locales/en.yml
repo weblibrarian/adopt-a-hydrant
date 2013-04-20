@@ -33,8 +33,8 @@ en:
     this_thing: "This %{thing}"
     tagline: "Claim responsibility for pulling invasive species from this patch."
     tos: "By signing up, you agree to the %{tos}."
-    voice_number: "617-555-1212"
-    zip: "02201-2013"
+    voice_number: "907-555-1212"
+    zip: "99501-1234"
   errors:
     password: "You need to sign in or sign up before continuing."
     not_found: "Could not find %{thing}."
