@@ -1,3 +1,25 @@
+# Adopt-a-Weed Setup (OS agnostic)
+* Install git
+* Install [Vagrant](http://www.vagrantup.com/)
+* Clone the repository
+
+        git clone git@github.com:weblibrarian/adopt-a-hydrant.git
+
+* Launch Vagrant. This will take a while the first time
+
+        vagrant up
+
+* SSH to the VM
+
+        vagrant ssh
+
+* Launch the server
+
+        cd /vagrant
+        rails server
+
+* Visit [localhost:3000](http://localhost:3000)
+
 # Adopt-a-Hydrant
 
 [![Build Status](https://secure.travis-ci.org/codeforamerica/adopt-a-hydrant.png?branch=master)][travis]
