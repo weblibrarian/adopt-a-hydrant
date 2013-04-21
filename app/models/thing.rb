@@ -60,7 +60,5 @@ class Thing < ActiveRecord::Base
     !user_id.nil?
   end
 
-  def species
-    "Hello, world!"
-  end
+  
 end

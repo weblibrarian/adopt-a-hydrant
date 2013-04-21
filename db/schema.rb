@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 5) do
+ActiveRecord::Schema.define(:version => 6) do
 
   create_table "rails_admin_histories", :force => true do |t|
     t.string   "message"
@@ -48,6 +48,7 @@ ActiveRecord::Schema.define(:version => 5) do
     t.decimal  "lng",        :precision => 17, :scale => 14, :null => false
     t.integer  "city_id"
     t.integer  "user_id"
+    t.string   "species"
   end
 
   add_index "things", ["city_id"], :name => "index_things_on_city_id", :unique => true
