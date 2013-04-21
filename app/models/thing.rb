@@ -62,6 +62,6 @@ class Thing < ActiveRecord::Base
   end
 
   def species
-    "hello"
+    species
   end
 end
