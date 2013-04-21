@@ -7,7 +7,7 @@ $(function() {
     mapTypeControl: false,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     maxZoom: 19,
-    minZoom: 15,
+    minZoom: 10,
     panControl: false,
     rotateControl: false,
     scaleControl: false,
@@ -90,7 +90,7 @@ $(function() {
       type: 'GET',
       url: '/things.json',
       data: {
-        'utf8': '✓',
+        'utf8': '?',
         'authenticity_token': $('#address_form input[name="authenticity_token"]').val(),
         'lat': lat,
         'lng': lng,
@@ -144,7 +144,7 @@ $(function() {
         type: 'GET',
         url: '/address.json',
         data: {
-          'utf8': '✓',
+          'utf8': '?',
           'authenticity_token': $('#address_form input[name="authenticity_token"]').val(),
           'city_state': $('#city_state').val(),
           'address': $('#address').val()
@@ -242,7 +242,7 @@ $(function() {
           type: 'POST',
           url: '/users.json',
           data: {
-            'utf8': '✓',
+            'utf8': '?',
             'authenticity_token': $('#combo-form input[name="authenticity_token"]').val(),
             'user': {
               'email': $('#user_email').val(),
@@ -314,7 +314,7 @@ $(function() {
           type: 'POST',
           url: '/users/sign_in.json',
           data: {
-            'utf8': '✓',
+            'utf8': '?',
             'authenticity_token': $('#combo-form input[name="authenticity_token"]').val(),
             'user': {
               'email': $('#user_email').val(),
@@ -352,7 +352,7 @@ $(function() {
           type: 'POST',
           url: '/users/password.json',
           data: {
-            'utf8': '✓',
+            'utf8': '?',
             'authenticity_token': $('#combo-form input[name="authenticity_token"]').val(),
             'user': {
               'email': $('#user_email').val()
@@ -381,7 +381,7 @@ $(function() {
       url: '/things.json',
       data: {
         'id': $('#thing_id').val(),
-        'utf8': '✓',
+        'utf8': '?',
         'authenticity_token': $('#adoption_form input[name="authenticity_token"]').val(),
         '_method': 'put',
         'thing': {
@@ -424,7 +424,7 @@ $(function() {
         url: '/things.json',
         data: {
           'id': $('#thing_id').val(),
-          'utf8': '✓',
+          'utf8': '?',
           'authenticity_token': $('#abandon_form input[name="authenticity_token"]').val(),
           '_method': 'put',
           'thing': {
@@ -517,7 +517,7 @@ $(function() {
         data: {
           'id': $('#id').val(),
           'thing_id': activeThingId,
-          'utf8': '✓',
+          'utf8': '?',
           'authenticity_token': $('#edit_form input[name="authenticity_token"]').val(),
           '_method': 'put',
           'user': {
@@ -661,7 +661,7 @@ $(function() {
       type: 'POST',
       url: '/reminders.json',
       data: {
-        'utf8': '✓',
+        'utf8': '?',
         'authenticity_token': $('#reminder_form input[name="authenticity_token"]').val(),
         'reminder': {
           'to_user_id': $('#reminder_to_user_id').val(),
