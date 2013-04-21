@@ -1,7 +1,5 @@
 ---
 thing_1:
-  species: Cara
-  acres: 0.1
   city_id: 1
   lat: 61.21317
   lng: -149.89495
