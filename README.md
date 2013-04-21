@@ -1,9 +1,12 @@
 # Adopt-a-Weed Setup (OS agnostic)
 * Install git
+* Install VirtualBox
 * Install [Vagrant](http://www.vagrantup.com/)
 * Clone the repository
 
         git clone git@github.com:weblibrarian/adopt-a-hydrant.git
+
+* Change directory into your new adopt-a-hydrant directory
 
 * Launch Vagrant. This will take a while the first time
 
