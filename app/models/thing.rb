@@ -59,4 +59,8 @@ class Thing < ActiveRecord::Base
   def adopted?
     !user_id.nil?
   end
+
+  def species
+    "Hello, world!"
+  end
 end
