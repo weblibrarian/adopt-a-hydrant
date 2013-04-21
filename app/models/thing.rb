@@ -3,6 +3,7 @@ class Thing < ActiveRecord::Base
   include Geokit::Geocoders
   validates_uniqueness_of :city_id, allow_nil: true
   validates_presence_of :lat, :lng
+#  validates_associated :species
   belongs_to :user
   has_many :reminders
 
@@ -59,4 +60,5 @@ class Thing < ActiveRecord::Base
   def adopted?
     !user_id.nil?
   end
+
 end
