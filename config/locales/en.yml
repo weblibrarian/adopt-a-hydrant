@@ -54,6 +54,7 @@ en:
     password_new: "New password"
     remember_me: "Stay signed in"
     sms_number: "Mobile phone number"
+    species: "Species: %{species}"
     state: "State"
     user_existing: "I've already signed up"
     user_new: "I haven't signed up yet"
