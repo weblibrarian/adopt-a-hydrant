@@ -4,7 +4,6 @@ class CreateThings < ActiveRecord::Migration
       t.timestamps
       t.string :name
       t.string :species, null: false
-      t.decimal :acres, precision: 3
       t.decimal :lat, null: false, precision: 16, scale: 14
       t.decimal :lng, null: false, precision: 17, scale: 14
       t.integer :city_id
