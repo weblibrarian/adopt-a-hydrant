@@ -1,6 +1,6 @@
 # Data from http://civicapi.couchone.com/boston_fire_hydrants/_all_docs?include_docs=true
 
-Thing.create(city_id:     1, lng: -149.89495, lat: 61.21317)
+Thing.create(city_id:     1, lng: -71.049226, lat: 42.383339)
 Thing.create(city_id:     2, lng: -71.075964, lat: 42.381021)
 Thing.create(city_id:     3, lng: -71.073419, lat: 42.380106)
 Thing.create(city_id:     4, lng: -71.070918, lat: 42.377728)
