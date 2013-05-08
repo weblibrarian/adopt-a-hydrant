@@ -39,6 +39,7 @@ en:
     password: "You need to sign in or sign up before continuing."
     not_found: "Could not find %{thing}."
   labels:
+    acres: "Coverage: %{acres}"
     address: "Address, Neighborhood"
     address_1: "Address Line 1"
     address_2: "Address Line 2"
