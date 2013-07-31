@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 7) do
+ActiveRecord::Schema.define(:version => 20130731043020) do
 
   create_table "rails_admin_histories", :force => true do |t|
     t.string   "message"
@@ -40,6 +40,16 @@ ActiveRecord::Schema.define(:version => 7) do
   add_index "reminders", ["thing_id"], :name => "index_reminders_on_thing_id"
   add_index "reminders", ["to_user_id"], :name => "index_reminders_on_to_user_id"
 
+  create_table "species", :force => true do |t|
+    t.string   "common_name"
+    t.integer  "invasiveness_rank"
+    t.string   "scientific_name"
+    t.string   "code"
+    t.text     "notes"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
   create_table "things", :force => true do |t|
     t.datetime "created_at",                                 :null => false
     t.datetime "updated_at",                                 :null => false
@@ -48,8 +58,8 @@ ActiveRecord::Schema.define(:version => 7) do
     t.decimal  "lng",        :precision => 17, :scale => 14, :null => false
     t.integer  "city_id"
     t.integer  "user_id"
-    t.string   "species"
     t.decimal  "acres",      :precision => 5,  :scale => 0
+    t.integer  "species_id"
   end
 
   add_index "things", ["city_id"], :name => "index_things_on_city_id", :unique => true

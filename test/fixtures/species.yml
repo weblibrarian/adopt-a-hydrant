@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  common_name: MyString
+  invasiveness_rank: 1
+  scientific_name: MyString
+  code: MyString
+  notes: MyText
+
+two:
+  common_name: MyString
+  invasiveness_rank: 1
+  scientific_name: MyString
+  code: MyString
+  notes: MyText

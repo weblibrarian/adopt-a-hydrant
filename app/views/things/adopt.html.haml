@@ -1,6 +1,5 @@
 %h2
   = t("titles.adopt", :thing => t("defaults.thing").titleize)
-= t("labels.species", :species => @thing.species)
 %br
 = t("labels.acres", :acres => @thing.acres)
 = form_for :thing, :url => things_path, :method => :put, :html => {:id => "adoption_form"} do |f|
