@@ -58,7 +58,7 @@ ActiveRecord::Schema.define(:version => 20130731043020) do
     t.decimal  "lng",        :precision => 17, :scale => 14, :null => false
     t.integer  "city_id"
     t.integer  "user_id"
-    t.decimal  "acres",      :precision => 5,  :scale => 0
+    t.decimal  "acres",      :precision => 4,  :scale => 3
     t.integer  "species_id"
   end
 

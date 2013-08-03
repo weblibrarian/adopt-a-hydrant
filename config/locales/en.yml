@@ -39,7 +39,7 @@ en:
     password: "You need to sign in or sign up before continuing."
     not_found: "Could not find %{thing}."
   labels:
-    acres: "Coverage: %{acres}"
+    acres: "Coverage: %{acres} acres"
     address: "Address, Neighborhood"
     address_1: "Address Line 1"
     address_2: "Address Line 2"
@@ -47,7 +47,7 @@ en:
     city_state: "City"
     email: "Email address"
     name: "Name"
-    name_thing: "Give this %{thing} a name"
+    name_thing: "Give this %{thing} a name!"
     organization: "Organization"
     password: "Password"
     password_choose: "Choose a password"

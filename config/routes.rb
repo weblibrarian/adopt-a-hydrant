@@ -1,4 +1,16 @@
 AdoptAThing::Application.routes.draw do
+  get "static_pages/CARA"
+  get "static_pages/CIAR4"
+  get "static_pages/LEVU"
+  get "static_pages/LUPOP4"
+  get "static_pages/MEAL12"
+  get "static_pages/MEOF"
+  get "static_pages/PRPA5"
+  get "static_pages/PRVI"
+  get "static_pages/SOAR2"
+  get "static_pages/TAVU"
+  get "static_pages/VICRC"
+
   devise_for :users, :controllers => {
     passwords: 'passwords',
     registrations: 'users',

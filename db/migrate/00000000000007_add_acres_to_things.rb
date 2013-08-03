@@ -3,7 +3,7 @@ class AddAcresToThings < ActiveRecord::Migration
     change_table(:things) do |t|
       
 
-      t.decimal :acres, precision: 5
+      t.decimal :acres, :precision => 4, :scale => 3
     end
   end
 
