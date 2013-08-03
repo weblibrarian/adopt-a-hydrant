@@ -1,10 +1,13 @@
 %h2
   = t("titles.adopt", :thing => t("defaults.thing").titleize)
 %br
+= t("labels.species")
 %a(target="species" href="#{@thing.species.code}.html")
-  = t("labels.species", :species => @thing.species.common_name)
+  = @thing.species.common_name
 %br
 = t("labels.acres", :acres => @thing.acres)
+%br
+%br
 = form_for :thing, :url => things_path, :method => :put, :html => {:id => "adoption_form"} do |f|
   = f.hidden_field "id"
   = f.hidden_field "user_id", :value => current_user.id
