@@ -207,3 +207,73 @@ img.lock {
   opacity: 0.8;
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
+
+/* Coral added */
+
+.topbar {
+  width: 100%;
+  height:72px;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  font-size:125%;
+}
+
+.topbar .alert-message.block-message {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.topbar p#tagline {
+  color: #ffffff;
+  background-color: #3b7f45;
+  height:48px;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#50955f), to(#3b7f45));
+  background-image: -moz-linear-gradient(top, #50955f, #3b7f45);
+  background-image: -ms-linear-gradient(top, #50955f, #3b7f45);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #50955f), color-stop(100%, #3b7f45));
+  background-image: -webkit-linear-gradient(top, #50955f, #3b7f45);
+  background-image: -o-linear-gradient(top, #50955f, #3b7f45);
+  background-image: linear-gradient(top, #50955f, #3b7f45);
+  border-color: #3b7f45 #3b7f45 #882a25;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#3b7f45', GradientType=0);
+  padding: 12px;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  margin-top:-20px;
+}
+
+.topbar img {
+  background:#FFFFFF;
+  float: left;
+  margin: 0px;
+  border-right:1px solid #000;
+}
+
+.species-content {
+  margin-top: 82px;
+}
+
+.species-description {
+  float:left; 
+  clear:right; 
+  width:300px; 
+  padding:10px;
+}
+
+.species-images {
+  overflow:hidden; 
+  margin:10px;
+}
+
+.species-images img a {
+  text-decoration: none;
+}
+
+.species-images img {
+  margin:5px;
+}
