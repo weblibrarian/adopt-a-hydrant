@@ -1,15 +1,15 @@
 AdoptAThing::Application.routes.draw do
-  get "static_pages/CARA"
-  get "static_pages/CIAR4"
-  get "static_pages/LEVU"
-  get "static_pages/LUPOP4"
-  get "static_pages/MEAL12"
-  get "static_pages/MEOF"
-  get "static_pages/PRPA5"
-  get "static_pages/PRVI"
-  get "static_pages/SOAR2"
-  get "static_pages/TAVU"
-  get "static_pages/VICRC"
+  match "/CARA", to: "static_pages#CARA", via: "get"
+  match "/CIAR4", to: "static_pages#CIAR4", via: "get"
+  match "/LEVU", to: "static_pages#LEVU", via: "get"
+  match "/LUPOP4", to: "static_pages#LUPOP4", via: "get"
+  match "/MEAL12", to: "static_pages#MEAL12", via: "get"
+  match "/MEOF", to: "static_pages#MEOF", via: "get"
+  match "/PRPA5", to: "static_pages#PRPA5", via: "get"
+  match "/PRVI", to: "static_pages#PRVI", via: "get"
+  match "/SOAR2", to: "static_pages#SOAR2", via: "get"
+  match "/TAVU", to: "static_pages#TAVU", via: "get"
+  match "/VICRC", to: "static_pages#VICRC", via: "get"
 
   devise_for :users, :controllers => {
     passwords: 'passwords',
