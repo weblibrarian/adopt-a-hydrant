@@ -1,2 +1,8 @@
 %h2
   = t("titles.sign_in", :thing => t("defaults.thing").titleize)
+%br
+= t("labels.species")
+%a(target="species" href="#{@thing.species.code}")
+  = @thing.species.common_name
+%br
+= t("labels.acres", :acres => @thing.acres)
