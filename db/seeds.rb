@@ -22,4 +22,19 @@ Species.create(common_name: 'rampion bellflower', scientific_name: 'Campanula ra
 Species.create(common_name: 'Canada thistel', scientific_name: 'Cirsium arvense (L.) Scop.', invasiveness_rank: 76, code: 'CIAR4')
 Species.create(common_name: 'oxeye daisy', scientific_name: 'Leucanthemum vulgare Lam.', invasiveness_rank: 61, code: 'LEVU')
 Species.create(common_name: 'bigleaf lupine', scientific_name: 'Lupinus polyphyllus Lindl.', invasiveness_rank: 71, code: 'LUPOP4')
+Species.create(common_name: 'white sweetclover', scientific_name: 'Melilotus alba Medikus', invasiveness_rank: 81, code: 'MEAL12')
+Species.create(common_name: 'yellow sweetclove', scientific_name: 'Melilotus officinalis (L.) Lam.', invasiveness_rank: 69, code: 'MEOF')
+Species.create(common_name: 'European bird cherry', scientific_name: 'Prunus padus L.', invasiveness_rank: 74, code: 'PRPA5')
+Species.create(common_name: 'chokecherry', scientific_name: 'Prunus virginiana L.', invasiveness_rank: 74, code: 'PRVI')
+Species.create(common_name: 'perennial sowthistle', scientific_name: 'Sonchus arvensis  L.', invasiveness_rank: 73, code: 'SOAR2')
+Species.create(common_name: 'common tansy', scientific_name: 'Tanacetum vulgare L.', invasiveness_rank: 60, code: 'TAVU')
+Species.create(common_name: 'bird vetch', scientific_name: 'Vicia cracca L. ssp. cracca', invasiveness_rank: 73, code: 'VICRC')
+
+
+
+
+
+
+
+
 
