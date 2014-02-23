@@ -19,7 +19,7 @@ Thing.create(city_id:     16, species_id: 4, acres: 2, lng: -149.779698, lat: 61
 Thing.create(city_id:     17, species_id: 4, acres: 0.5, lng: -149.86836, lat: 61.17248)
 
 Species.create(common_name: 'rampion bellflower', scientific_name: 'Campanula rapunculoides L.', invasiveness_rank: 64, code: 'CARA')
-Species.create(common_name: 'Canada thistel', scientific_name: 'Cirsium arvense (L.) Scop.', invasiveness_rank: 76, code: 'CIAR4')
+Species.create(common_name: 'Canada thistle', scientific_name: 'Cirsium arvense (L.) Scop.', invasiveness_rank: 76, code: 'CIAR4')
 Species.create(common_name: 'oxeye daisy', scientific_name: 'Leucanthemum vulgare Lam.', invasiveness_rank: 61, code: 'LEVU')
 Species.create(common_name: 'bigleaf lupine', scientific_name: 'Lupinus polyphyllus Lindl.', invasiveness_rank: 71, code: 'LUPOP4')
 Species.create(common_name: 'white sweetclover', scientific_name: 'Melilotus alba Medikus', invasiveness_rank: 81, code: 'MEAL12')
